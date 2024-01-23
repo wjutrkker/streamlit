@@ -18,11 +18,8 @@ st.text('This is a page to allow review of Image data')
 # Sidebar setup
 st.sidebar.title('Radio Buttons')
 
-# st.sidebar.title('Navigation')
-cameraArray = [key for key in arrayOfCams.keys() if arrayOfCams[key][0]!="N/A"]
-print(cameraArray)
-# options = st.sidebar.radio('Cameras', ['RY_rack', 'Top_Silo_PTZ', 'BackAdmin'])
-options = st.sidebar.radio('Cameras',cameraArray)
+st.sidebar.title('Navigation')
+options = st.sidebar.radio('Cameras', ['RY_rack', 'Top_Silo_PTZ', 'BackAdmin'])
 
 
 cls= st.sidebar.radio('Detection Class', ['any','person', 'car', ])
