@@ -1,4 +1,1 @@
-matplotlib
-plotly
 streamlit-timeline
-supabase

@@ -19,12 +19,12 @@ st.text('This is a page to allow review of Image data')
 st.sidebar.title('Radio Buttons')
 
 st.sidebar.title('Navigation')
-options = st.sidebar.radio('Cameras', ['First', 'Second', 'Third'])
+options = st.sidebar.radio('radio', ['First', 'Second', 'Third'])
 
 
-cls= st.sidebar.radio('Detection Class', ['any','person', 'car', ])
-detection = st.sidebar.radio('Dections or Tracks', ['detections', 'tracks'])
-numDet = st.number_input("Number of Detections To Display:", value=25)
+cls= st.sidebar.radio('radios', ['1','2', '3', ])
+detection = st.sidebar.radio('sidebar', ['1', '2'])
+numDet = st.number_input("number input:", value=25)
 
 if options != None:
     genericCamera(options)
