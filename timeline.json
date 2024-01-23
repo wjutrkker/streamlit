@@ -2,19 +2,19 @@
     "title": {
         "media": {
             "url": "",
-            "caption": " <a target=\\"_blank\\" href=''>credits</a>",
+            "caption": "<h1>Placeholder</h1> ",
             "credit": ""
         },
         "text": {
-            "headline": "Camera Timeline",
-            "text": "Camera specific Timeline with detections</p>"
+            "headline": "Timeline",
+            "text": "Timeline </p>"
         }
     },
     "events": [
         {
             "media": {
-                "url": "http://192.168.51.11:8002/images/Tele_Pole_1/12-28/1.png",
-                "caption": "Image Tele_Pole_1/12-28/1.png from camera Tele_Pole_1 at coordinates top left  990, 425 "
+                "url": "https://picsum.photos/200/300",
+                "caption": "Photo insert"
             },
             "start_date": {
                 "year":2023,
@@ -26,8 +26,8 @@
                 "microsecond":  880610
             },
             "text": {
-                "headline": "detection",
-                "text": " person  </p>"
+                "headline": "photo",
+                "text": " placeholder  </p>"
             }
         }
         ]}
